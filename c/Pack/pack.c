@@ -13,7 +13,9 @@ typedef struct deno {
 } Deno;
 
 int main() {
+  // 5
   printf("%zd\n", sizeof(Demo));
+  // 8
   printf("%zd\n", sizeof(Deno));
   return 0;
 }
